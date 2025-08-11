@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 
 /// Load .env from your local machine to work properly
 dotenv.config({ path: "/opt/nubo-cms/nubo-cms-rest/.env" });
-
+// testevent
 //dotenv.config({ path: "../.env" });
 import { env } from "./src/environment/env";
 import { App } from "./app";
