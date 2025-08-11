@@ -1,0 +1,11 @@
+export { userRouter } from "./user.router";
+export { roleRouter } from "./role.router";
+export { regionRouter } from "./region.router";
+export { languageRouter } from "./language.router";
+export { sectionTypeRouter } from "./section_type.router";
+export { pageRouter } from "./page.router";
+export { fileUploadRouter } from "./file.upload.router";
+export { menuRouter } from "./menu.router";
+export { directoryRouter } from "./directory.router";
+export { menuTypeRouter } from "./menu_type.router";
+export { blogRouter } from "./blogs.router";

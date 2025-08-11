@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "promise"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off",
+    //  "@typescript-eslint/no-var-requires": "off",
+    // "camelcase": "error",
+    "prefer-promise-reject-errors": ["error", { "allowEmptyReject": true }],
+    "promise/catch-or-return": "error"
+  }
+}
