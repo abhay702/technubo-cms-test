@@ -5,3 +5,4 @@ hooks:
   AfterInstall:
     - location: scripts/after.sh
       runas: ubuntu
+
