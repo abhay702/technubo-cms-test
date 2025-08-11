@@ -12,3 +12,5 @@ hooks:
   AfterInstall:
     - location: scripts/after_install.sh
       runas: ubuntu
+
+#test3
