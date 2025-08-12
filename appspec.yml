@@ -1,3 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/html/technubo-rest
+file_exists_behavior: OVERWRITE
+
 hooks:
   BeforeInstall:
     - location: scripts/before.sh
@@ -5,4 +12,3 @@ hooks:
   AfterInstall:
     - location: scripts/after.sh
       runas: ubuntu
-
